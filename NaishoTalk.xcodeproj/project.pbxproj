@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B63B2431D2BBD2E009B975D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B63B2421D2BBD2E009B975D /* AppDelegate.swift */; };
+		5B63B2451D2BBD2E009B975D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B63B2441D2BBD2E009B975D /* ViewController.swift */; };
+		5B63B2481D2BBD2E009B975D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B63B2461D2BBD2E009B975D /* Main.storyboard */; };
+		5B63B24A1D2BBD2E009B975D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B63B2491D2BBD2E009B975D /* Assets.xcassets */; };
+		5B63B24D1D2BBD2E009B975D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B63B24B1D2BBD2E009B975D /* LaunchScreen.storyboard */; };
+		5B63B2581D2BBD2E009B975D /* NaishoTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B63B2571D2BBD2E009B975D /* NaishoTalkTests.swift */; };
+		5B63B2631D2BBD2E009B975D /* NaishoTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B63B2621D2BBD2E009B975D /* NaishoTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B63B2541D2BBD2E009B975D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B63B2371D2BBD2E009B975D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B63B23E1D2BBD2E009B975D;
+			remoteInfo = NaishoTalk;
+		};
+		5B63B25F1D2BBD2E009B975D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B63B2371D2BBD2E009B975D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B63B23E1D2BBD2E009B975D;
+			remoteInfo = NaishoTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B63B23F1D2BBD2E009B975D /* NaishoTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaishoTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B63B2421D2BBD2E009B975D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B63B2441D2BBD2E009B975D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B63B2471D2BBD2E009B975D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B63B2491D2BBD2E009B975D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B63B24C1D2BBD2E009B975D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B63B24E1D2BBD2E009B975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B63B2531D2BBD2E009B975D /* NaishoTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaishoTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B63B2571D2BBD2E009B975D /* NaishoTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaishoTalkTests.swift; sourceTree = "<group>"; };
+		5B63B2591D2BBD2E009B975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B63B25E1D2BBD2E009B975D /* NaishoTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaishoTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B63B2621D2BBD2E009B975D /* NaishoTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaishoTalkUITests.swift; sourceTree = "<group>"; };
+		5B63B2641D2BBD2E009B975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B63B23C1D2BBD2E009B975D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B63B2501D2BBD2E009B975D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B63B25B1D2BBD2E009B975D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B63B2361D2BBD2E009B975D = {
+			isa = PBXGroup;
+			children = (
+				5B63B2411D2BBD2E009B975D /* NaishoTalk */,
+				5B63B2561D2BBD2E009B975D /* NaishoTalkTests */,
+				5B63B2611D2BBD2E009B975D /* NaishoTalkUITests */,
+				5B63B2401D2BBD2E009B975D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B63B2401D2BBD2E009B975D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B63B23F1D2BBD2E009B975D /* NaishoTalk.app */,
+				5B63B2531D2BBD2E009B975D /* NaishoTalkTests.xctest */,
+				5B63B25E1D2BBD2E009B975D /* NaishoTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B63B2411D2BBD2E009B975D /* NaishoTalk */ = {
+			isa = PBXGroup;
+			children = (
+				5B63B2421D2BBD2E009B975D /* AppDelegate.swift */,
+				5B63B2441D2BBD2E009B975D /* ViewController.swift */,
+				5B63B2461D2BBD2E009B975D /* Main.storyboard */,
+				5B63B2491D2BBD2E009B975D /* Assets.xcassets */,
+				5B63B24B1D2BBD2E009B975D /* LaunchScreen.storyboard */,
+				5B63B24E1D2BBD2E009B975D /* Info.plist */,
+			);
+			path = NaishoTalk;
+			sourceTree = "<group>";
+		};
+		5B63B2561D2BBD2E009B975D /* NaishoTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B63B2571D2BBD2E009B975D /* NaishoTalkTests.swift */,
+				5B63B2591D2BBD2E009B975D /* Info.plist */,
+			);
+			path = NaishoTalkTests;
+			sourceTree = "<group>";
+		};
+		5B63B2611D2BBD2E009B975D /* NaishoTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B63B2621D2BBD2E009B975D /* NaishoTalkUITests.swift */,
+				5B63B2641D2BBD2E009B975D /* Info.plist */,
+			);
+			path = NaishoTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B63B23E1D2BBD2E009B975D /* NaishoTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B63B2671D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalk" */;
+			buildPhases = (
+				5B63B23B1D2BBD2E009B975D /* Sources */,
+				5B63B23C1D2BBD2E009B975D /* Frameworks */,
+				5B63B23D1D2BBD2E009B975D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaishoTalk;
+			productName = NaishoTalk;
+			productReference = 5B63B23F1D2BBD2E009B975D /* NaishoTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B63B2521D2BBD2E009B975D /* NaishoTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B63B26A1D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalkTests" */;
+			buildPhases = (
+				5B63B24F1D2BBD2E009B975D /* Sources */,
+				5B63B2501D2BBD2E009B975D /* Frameworks */,
+				5B63B2511D2BBD2E009B975D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B63B2551D2BBD2E009B975D /* PBXTargetDependency */,
+			);
+			name = NaishoTalkTests;
+			productName = NaishoTalkTests;
+			productReference = 5B63B2531D2BBD2E009B975D /* NaishoTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B63B25D1D2BBD2E009B975D /* NaishoTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B63B26D1D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalkUITests" */;
+			buildPhases = (
+				5B63B25A1D2BBD2E009B975D /* Sources */,
+				5B63B25B1D2BBD2E009B975D /* Frameworks */,
+				5B63B25C1D2BBD2E009B975D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B63B2601D2BBD2E009B975D /* PBXTargetDependency */,
+			);
+			name = NaishoTalkUITests;
+			productName = NaishoTalkUITests;
+			productReference = 5B63B25E1D2BBD2E009B975D /* NaishoTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B63B2371D2BBD2E009B975D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sectalk;
+				TargetAttributes = {
+					5B63B23E1D2BBD2E009B975D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8HDW23J2P5;
+					};
+					5B63B2521D2BBD2E009B975D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8HDW23J2P5;
+						TestTargetID = 5B63B23E1D2BBD2E009B975D;
+					};
+					5B63B25D1D2BBD2E009B975D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8HDW23J2P5;
+						TestTargetID = 5B63B23E1D2BBD2E009B975D;
+					};
+				};
+			};
+			buildConfigurationList = 5B63B23A1D2BBD2E009B975D /* Build configuration list for PBXProject "NaishoTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B63B2361D2BBD2E009B975D;
+			productRefGroup = 5B63B2401D2BBD2E009B975D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B63B23E1D2BBD2E009B975D /* NaishoTalk */,
+				5B63B2521D2BBD2E009B975D /* NaishoTalkTests */,
+				5B63B25D1D2BBD2E009B975D /* NaishoTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B63B23D1D2BBD2E009B975D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B63B24D1D2BBD2E009B975D /* LaunchScreen.storyboard in Resources */,
+				5B63B24A1D2BBD2E009B975D /* Assets.xcassets in Resources */,
+				5B63B2481D2BBD2E009B975D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B63B2511D2BBD2E009B975D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B63B25C1D2BBD2E009B975D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B63B23B1D2BBD2E009B975D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B63B2451D2BBD2E009B975D /* ViewController.swift in Sources */,
+				5B63B2431D2BBD2E009B975D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B63B24F1D2BBD2E009B975D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B63B2581D2BBD2E009B975D /* NaishoTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B63B25A1D2BBD2E009B975D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B63B2631D2BBD2E009B975D /* NaishoTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B63B2551D2BBD2E009B975D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B63B23E1D2BBD2E009B975D /* NaishoTalk */;
+			targetProxy = 5B63B2541D2BBD2E009B975D /* PBXContainerItemProxy */;
+		};
+		5B63B2601D2BBD2E009B975D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B63B23E1D2BBD2E009B975D /* NaishoTalk */;
+			targetProxy = 5B63B25F1D2BBD2E009B975D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B63B2461D2BBD2E009B975D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B63B2471D2BBD2E009B975D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B63B24B1D2BBD2E009B975D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B63B24C1D2BBD2E009B975D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B63B2651D2BBD2E009B975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B63B2661D2BBD2E009B975D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B63B2681D2BBD2E009B975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaishoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B63B2691D2BBD2E009B975D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaishoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B63B26B1D2BBD2E009B975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NaishoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaishoTalk.app/NaishoTalk";
+			};
+			name = Debug;
+		};
+		5B63B26C1D2BBD2E009B975D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NaishoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaishoTalk.app/NaishoTalk";
+			};
+			name = Release;
+		};
+		5B63B26E1D2BBD2E009B975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NaishoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NaishoTalk;
+			};
+			name = Debug;
+		};
+		5B63B26F1D2BBD2E009B975D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NaishoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NaishoTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B63B23A1D2BBD2E009B975D /* Build configuration list for PBXProject "NaishoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B63B2651D2BBD2E009B975D /* Debug */,
+				5B63B2661D2BBD2E009B975D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B63B2671D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B63B2681D2BBD2E009B975D /* Debug */,
+				5B63B2691D2BBD2E009B975D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B63B26A1D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B63B26B1D2BBD2E009B975D /* Debug */,
+				5B63B26C1D2BBD2E009B975D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B63B26D1D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B63B26E1D2BBD2E009B975D /* Debug */,
+				5B63B26F1D2BBD2E009B975D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B63B2371D2BBD2E009B975D /* Project object */;
+}
