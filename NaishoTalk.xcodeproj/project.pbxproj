@@ -14,6 +14,17 @@
 		5B63B24D1D2BBD2E009B975D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B63B24B1D2BBD2E009B975D /* LaunchScreen.storyboard */; };
 		5B63B2581D2BBD2E009B975D /* NaishoTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B63B2571D2BBD2E009B975D /* NaishoTalkTests.swift */; };
 		5B63B2631D2BBD2E009B975D /* NaishoTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B63B2621D2BBD2E009B975D /* NaishoTalkUITests.swift */; };
+		5B63B2721D2E291A009B975D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B63B2701D2E291A009B975D /* Alamofire.framework */; };
+		5B63B2731D2E291A009B975D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B63B2711D2E291A009B975D /* SwiftyJSON.framework */; };
+		5BAB23F21D2F610C00136A15 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB23F11D2F610C00136A15 /* TutorialPageViewController.swift */; };
+		5BAB23F41D2F64EE00136A15 /* TutorialThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB23F31D2F64EE00136A15 /* TutorialThirdViewController.swift */; };
+		5BAB23F61D2F650600136A15 /* TutorialSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB23F51D2F650600136A15 /* TutorialSecondViewController.swift */; };
+		5BAB23F81D2F651500136A15 /* TutorialFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB23F71D2F651500136A15 /* TutorialFirstViewController.swift */; };
+		5BCC67811D2E2EB300294790 /* NozokiListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC677F1D2E2EB300294790 /* NozokiListCell.swift */; };
+		5BCC67821D2E2EB300294790 /* NozokiListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC67801D2E2EB300294790 /* NozokiListCell.xib */; };
+		5BCC67841D2E36C400294790 /* TalkListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC67831D2E36C400294790 /* TalkListData.swift */; };
+		5BCC67861D2F53A000294790 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC67851D2F53A000294790 /* Function.swift */; };
+		9227055F425BBF54D9CDE2E1 /* Pods_NaishoTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC40E3CDE99CBE18ED09A52 /* Pods_NaishoTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,19 @@
 		5B63B25E1D2BBD2E009B975D /* NaishoTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaishoTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B63B2621D2BBD2E009B975D /* NaishoTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaishoTalkUITests.swift; sourceTree = "<group>"; };
 		5B63B2641D2BBD2E009B975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B63B2701D2E291A009B975D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5B63B2711D2E291A009B975D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		5BAB23F11D2F610C00136A15 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		5BAB23F31D2F64EE00136A15 /* TutorialThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialThirdViewController.swift; sourceTree = "<group>"; };
+		5BAB23F51D2F650600136A15 /* TutorialSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSecondViewController.swift; sourceTree = "<group>"; };
+		5BAB23F71D2F651500136A15 /* TutorialFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialFirstViewController.swift; sourceTree = "<group>"; };
+		5BCC677F1D2E2EB300294790 /* NozokiListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NozokiListCell.swift; sourceTree = "<group>"; };
+		5BCC67801D2E2EB300294790 /* NozokiListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NozokiListCell.xib; sourceTree = "<group>"; };
+		5BCC67831D2E36C400294790 /* TalkListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkListData.swift; sourceTree = "<group>"; };
+		5BCC67851D2F53A000294790 /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		8B3BF05989D21C4F7E165D45 /* Pods-NaishoTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaishoTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaishoTalk/Pods-NaishoTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		BCC40E3CDE99CBE18ED09A52 /* Pods_NaishoTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaishoTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB041D24B01EA86553369828 /* Pods-NaishoTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaishoTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaishoTalk/Pods-NaishoTalk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B63B2721D2E291A009B975D /* Alamofire.framework in Frameworks */,
+				5B63B2731D2E291A009B975D /* SwiftyJSON.framework in Frameworks */,
+				9227055F425BBF54D9CDE2E1 /* Pods_NaishoTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3F38139DE74A3339568961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B63B2701D2E291A009B975D /* Alamofire.framework */,
+				5B63B2711D2E291A009B975D /* SwiftyJSON.framework */,
+				BCC40E3CDE99CBE18ED09A52 /* Pods_NaishoTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B63B2361D2BBD2E009B975D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				5B63B2561D2BBD2E009B975D /* NaishoTalkTests */,
 				5B63B2611D2BBD2E009B975D /* NaishoTalkUITests */,
 				5B63B2401D2BBD2E009B975D /* Products */,
+				712A103CDB23C532271767F0 /* Pods */,
+				0C3F38139DE74A3339568961 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +138,18 @@
 			children = (
 				5B63B2421D2BBD2E009B975D /* AppDelegate.swift */,
 				5B63B2441D2BBD2E009B975D /* ViewController.swift */,
-				5B63B2461D2BBD2E009B975D /* Main.storyboard */,
 				5B63B2491D2BBD2E009B975D /* Assets.xcassets */,
+				5B63B2461D2BBD2E009B975D /* Main.storyboard */,
 				5B63B24B1D2BBD2E009B975D /* LaunchScreen.storyboard */,
 				5B63B24E1D2BBD2E009B975D /* Info.plist */,
+				5BCC677F1D2E2EB300294790 /* NozokiListCell.swift */,
+				5BCC67801D2E2EB300294790 /* NozokiListCell.xib */,
+				5BCC67831D2E36C400294790 /* TalkListData.swift */,
+				5BCC67851D2F53A000294790 /* Function.swift */,
+				5BAB23F11D2F610C00136A15 /* TutorialPageViewController.swift */,
+				5BAB23F31D2F64EE00136A15 /* TutorialThirdViewController.swift */,
+				5BAB23F51D2F650600136A15 /* TutorialSecondViewController.swift */,
+				5BAB23F71D2F651500136A15 /* TutorialFirstViewController.swift */,
 			);
 			path = NaishoTalk;
 			sourceTree = "<group>";
@@ -125,6 +172,15 @@
 			path = NaishoTalkUITests;
 			sourceTree = "<group>";
 		};
+		712A103CDB23C532271767F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B3BF05989D21C4F7E165D45 /* Pods-NaishoTalk.debug.xcconfig */,
+				FB041D24B01EA86553369828 /* Pods-NaishoTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +188,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B63B2671D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalk" */;
 			buildPhases = (
+				AB0908CD146C87248B3F9362 /* [CP] Check Pods Manifest.lock */,
 				5B63B23B1D2BBD2E009B975D /* Sources */,
 				5B63B23C1D2BBD2E009B975D /* Frameworks */,
 				5B63B23D1D2BBD2E009B975D /* Resources */,
+				83C4BC287E7963E53FA7A3A9 /* [CP] Embed Pods Frameworks */,
+				02A50F21207B1496CB796C7E /* [CP] Copy Pods Resources */,
+				5B63B2741D2E292A009B975D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B63B24D1D2BBD2E009B975D /* LaunchScreen.storyboard in Resources */,
+				5BCC67821D2E2EB300294790 /* NozokiListCell.xib in Resources */,
 				5B63B24A1D2BBD2E009B975D /* Assets.xcassets in Resources */,
 				5B63B2481D2BBD2E009B975D /* Main.storyboard in Resources */,
 			);
@@ -254,6 +315,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02A50F21207B1496CB796C7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaishoTalk/Pods-NaishoTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B63B2741D2E292A009B975D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		83C4BC287E7963E53FA7A3A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaishoTalk/Pods-NaishoTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0908CD146C87248B3F9362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B63B23B1D2BBD2E009B975D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +385,13 @@
 			files = (
 				5B63B2451D2BBD2E009B975D /* ViewController.swift in Sources */,
 				5B63B2431D2BBD2E009B975D /* AppDelegate.swift in Sources */,
+				5BCC67811D2E2EB300294790 /* NozokiListCell.swift in Sources */,
+				5BAB23F41D2F64EE00136A15 /* TutorialThirdViewController.swift in Sources */,
+				5BAB23F81D2F651500136A15 /* TutorialFirstViewController.swift in Sources */,
+				5BAB23F61D2F650600136A15 /* TutorialSecondViewController.swift in Sources */,
+				5BCC67841D2E36C400294790 /* TalkListData.swift in Sources */,
+				5BAB23F21D2F610C00136A15 /* TutorialPageViewController.swift in Sources */,
+				5BCC67861D2F53A000294790 /* Function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,9 +531,15 @@
 		};
 		5B63B2681D2BBD2E009B975D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3BF05989D21C4F7E165D45 /* Pods-NaishoTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NaishoTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,9 +548,15 @@
 		};
 		5B63B2691D2BBD2E009B975D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB041D24B01EA86553369828 /* Pods-NaishoTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NaishoTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naisho.talk.nainai.sec.talk.NaishoTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +628,7 @@
 				5B63B2691D2BBD2E009B975D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B63B26A1D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +637,7 @@
 				5B63B26C1D2BBD2E009B975D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B63B26D1D2BBD2E009B975D /* Build configuration list for PBXNativeTarget "NaishoTalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +646,7 @@
 				5B63B26F1D2BBD2E009B975D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
